@@ -6,11 +6,11 @@ function LandingPage(props) {
     return (
         <div className='landing-page-container'>
             <header>
-                <div>
+                <div className='logos'>
                     <img alt='github logo' src={github} />
                 </div>
                 <h1>Imani Paul</h1>
-                <div>
+                <div className='logos'>
                     <img alt='linkedin logo' src={linkedin} />
                 </div>
             </header>
@@ -19,6 +19,15 @@ function LandingPage(props) {
                 <div>Projects</div>
                 <div>Contact</div>
             </nav>
+            <section>
+                Content
+            </section>
+            <section>
+                Content
+            </section>
+            <section>
+                Content
+            </section>
 
 
         </div>
