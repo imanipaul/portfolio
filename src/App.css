@@ -123,6 +123,50 @@ section{
   align-items: center;
 }
 
+.project-card{
+  width: 250px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.project-card-description{
+  width: 250px;
+  height: 200px;
+  /* border: 1px solid black; */
+  margin: 15px;
+  position: absolute;
+  display: none;
+}
+
+.project-card:hover .project-card-description{
+  display: block;
+}
+
+
+
+.all-projects{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  overflow: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .contact-container{
   width: 1010px;
   height: 585px;
