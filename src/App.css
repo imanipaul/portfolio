@@ -1,10 +1,7 @@
 body{
   background-color: #EDE8E4;
-  /* height: 100vh; */
-  /* overflow: hidden; */
   scroll-snap-type: y proximity ;
   overflow-y: scroll;
-  /* scroll-padding: 10px; */
 
 
 }
@@ -13,16 +10,8 @@ body{
   text-align: center;
   display: flex;
   flex-direction: column;
-  /* scroll-snap-type: mandatory; */
-  /* overflow: scroll; */
-  /* height: 100vh; */
   
 }
-
-.snaphere{
-  scroll-snap-align: start;
-}
-
 
 header{
   display: flex;
@@ -52,6 +41,8 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 5px 10px 5px rgb(91, 91, 91);
+  /* background: url('./images/computercup.jpg') */
 }
 
 nav{
@@ -61,18 +52,32 @@ nav{
   align-items: center;
   align-self: center;
   justify-content: space-around;
-  /* position: fixed; */
   top: 150px;
 }
 
 section{
   font-size: 20px;
   align-self: center;
-  margin-top: 100px;
+  filter: yellow;
 }
 
-.about-container{
+
+section img{
+  height: 400px;
+  filter: grayscale(100%) blur(3px) opacity(80%);
   
+}
+
+.web-developer{
+  position: absolute;
+  top: 50%;
+}
+
+
+
+
+.about-container{
+  box-shadow: 5px 10px 5px rgb(91, 91, 91);
   scroll-snap-align: center;
   width: 1010px;
   height: 585px;
@@ -154,7 +159,7 @@ section{
 
 .projects-container{
   scroll-snap-align: center;
-
+  box-shadow: 5px 10px 5px rgb(91, 91, 91);
   width: 1010px;
   height: 585px;
   background-color: white;
@@ -174,7 +179,14 @@ section{
   margin: 15px;
   background-color: #EDE8E4;
   position: relative;
-  
+  box-shadow: 2px 5px 2px rgb(91, 91, 91);
+  transition: .5s ease;
+
+}
+
+.project-card:hover{
+  box-shadow: 5px 10px 5px black;
+
 }
 
 
@@ -189,8 +201,8 @@ section{
   border-radius: 10px;
   opacity: 1;
   display: block;
-  transition: .5s ease;
-  backface-visibility: hidden;
+  /* transition: .5s ease; */
+  /* backface-visibility: hidden; */
 
 }
 
@@ -248,7 +260,7 @@ section{
 
 .contact-container{
   scroll-snap-align: center;
-
+  box-shadow: 5px 10px 5px rgb(91, 91, 91);
   width: 1010px;
   height: 585px;
   background-color: white;
