@@ -1,13 +1,26 @@
 import React from 'react'
 import github from './images/github.png'
 import linkedin from './images/linkedin.png'
-import keyboard from './images/keyboard.jpg'
-import computercode from './images/computercode.jpg'
-import computercoffee from './images/computercoffee.jpg'
-import computerglasses from './images/computerglasses.jpg'
-import computerplant from './images/computerplant.jpg'
-import closedcomputer from './images/closedcomputer.jpg'
-import computercup from './images/computercup.jpg'
+// import keyboard from './images/keyboard.jpg'
+// import computercode from './images/computercode.jpg'
+// import computercoffee from './images/computercoffee.jpg'
+// import computerglasses from './images/computerglasses.jpg'
+// import computerplant from './images/computerplant.jpg'
+// import closedcomputer from './images/closedcomputer.jpg'
+// import computercup from './images/computercup.jpg'
+// import keyboardmouse from './images/keyboardmouse.jpg'
+// import keyboardwhite from './images/keyboardwhite.jpg'
+
+// import angles from './images/angles.jpg'
+// import architecture from './images/architecture.jpg'
+import artblur from './images/artblur.jpg'
+import backgroundblur from './images/backgroundblur.jpg'
+import backlitkeyboard from './images/backlitkeyboard.jpg'
+import blacklightbulb from './images/blacklightbulb.jpg'
+// import circles from './images/circles.jpg'
+import computerwhitebackground from './images/computerwhitebackground.jpg'
+import lightbulbs from './images/lightbulbs.jpg'
+import whitecomputer from './images/whitecomputer.jpg'
 
 function LandingPage() {
     return (
@@ -27,7 +40,7 @@ function LandingPage() {
                 <div>Contact</div>
             </nav>
             <section>
-                <img src={computercup} />
+                {/* <img src={whitekeyboardearbuds} /> */}
                 <div className='web-developer'>Web Developer</div>
             </section>
         </div>

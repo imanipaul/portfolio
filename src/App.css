@@ -42,7 +42,8 @@ header{
   flex-direction: column;
   align-items: center;
   box-shadow: 5px 10px 5px rgb(91, 91, 91);
-  /* background: url('./images/computercup.jpg') */
+  background: url('./images/whitecomputer.jpg');
+  background-size: 1010px
 }
 
 nav{
@@ -58,19 +59,20 @@ nav{
 section{
   font-size: 20px;
   align-self: center;
-  filter: yellow;
 }
 
 
 section img{
-  height: 400px;
-  filter: grayscale(100%) blur(3px) opacity(80%);
+  /* height: 400px; */
+  width: 100%;
+  filter: grayscale(100%) opacity(80%);
   
 }
 
 .web-developer{
   position: absolute;
-  top: 50%;
+  top: 40%;
+  right: 50%
 }
 
 
