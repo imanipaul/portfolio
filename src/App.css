@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
-  background-color: #EDE8E4;
+  background-color: #7EA3CC;
   scroll-snap-type: y proximity ;
   overflow-y: scroll;
 
@@ -15,11 +19,18 @@ body{
   
 }
 
-h1, nav, .about-nav {
+.title{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
+h1, nav, .about-nav, .title{
   font-family: 'Montserrat', sans-serif;
 }
 
-.slidingVertical, .brand-statement-container, .text-description {
+.slidingVertical, .brand-statement-container, .text-description  {
   font-family: 'Lora', serif;
 }
 
@@ -39,21 +50,42 @@ header{
   width: 20px
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.card-nav:hover{
+  text-decoration: underline;
+}
+
+.card-nav{
+  font-size: 18px;
+}
+
+h2 a:hover{
+  text-decoration: underline;
+}
+
+a:active{
+  color: rgb(119, 0, 255);
+}
+
 .landing-page-container{
   scroll-snap-align: center;
-  width: 1010px;
-  height: 585px;
+  width: 1100px;
+  height: 637px;
   background-color: white;
   align-self: center;
   border-radius: 20px;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 5px 10px 5px rgb(91, 91, 91);
   background: url('./images/whitecomputer.jpg');
-  background-size: 1010px
+  background-size: cover;
 }
 
 nav{
@@ -69,6 +101,12 @@ nav{
 nav div{
   font-size: 18px;
   padding-top: 10px;
+  width: 100px;
+  /* height: 50px; */
+}
+
+nav div:hover{
+  text-decoration: underline;
 }
 
 section{
@@ -88,7 +126,7 @@ section{
   animation: topToBottom 7.5s linear infinite 0s;
   position: absolute;
   opacity: 0;
-  margin-top: 130px;
+  margin-top: 140px;
   width: 500px;
   right: 400px;
 }
@@ -113,12 +151,11 @@ section{
 
 
 
-
 .about-container{
   box-shadow: 5px 10px 5px rgb(91, 91, 91);
   scroll-snap-align: center;
-  width: 1010px;
-  height: 585px;
+  width: 1100px;
+  height: 637px;
   background-color: white;
   align-self: center;
   border-radius: 20px;
@@ -139,10 +176,11 @@ section{
 }
 
 .framework-logos{
-  height: 100px;
-  width: 100%;
+  height: 300px;
+  width: 70vw;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -160,10 +198,25 @@ section{
   align-self: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 100px;
+  margin-left: 120px;
+}
+
+#projects-nav{
+  margin-top: 20px;
+  
+}
+
+.about-nav p{
+  width: 100px;
+}
+
+.about-nav div{
+  display: flex;
+  margin-right: 120px;
 }
 
 .brand-statement-container{
@@ -183,10 +236,7 @@ section{
   height: 332px;
 }
 
-.about-logo{
-  width: 40px;
-  height: 40px;
-}
+
 
 
 
@@ -198,8 +248,8 @@ section{
 .projects-container{
   scroll-snap-align: center;
   box-shadow: 5px 10px 5px rgb(91, 91, 91);
-  width: 1010px;
-  height: 585px;
+  width: 1100px;
+  height: 637px;
   background-color: white;
   align-self: center;
   border-radius: 20px;
@@ -214,11 +264,12 @@ section{
 .project-card{
   border: 1px solid black;
   border-radius: 20px;
-  margin: 15px;
+  /* margin: 15px; */
   background-color: #EDE8E4;
   position: relative;
   box-shadow: 2px 5px 2px rgb(91, 91, 91);
   transition: .5s ease;
+  margin-bottom: 65px;
 
 }
 
@@ -271,7 +322,11 @@ section{
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%
-  
+}
+
+.text-description a{
+  margin-right: 20px;
+  text-decoration: underline;
 }
 
 .all-projects{
@@ -299,14 +354,38 @@ section{
 .contact-container{
   scroll-snap-align: center;
   box-shadow: 5px 10px 5px rgb(91, 91, 91);
-  width: 1010px;
-  height: 585px;
+  width: 1100px;
+  height: 637px;
   background-color: white;
   align-self: center;
   border-radius: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.contact a{
+  text-decoration: underline;
+  margin: 50px;
+}
+
+.contact .title{
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+
+.about-logo{
+  width: 100px;
+margin: 25px;
+}
+
+.line{
+  border-bottom: 1px solid black;
+  width: 80%;
 }
