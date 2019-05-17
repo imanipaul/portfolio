@@ -9,11 +9,8 @@ function App() {
   return (
     <div className="App">
       <LandingPage />
-      <hr />
       <About />
-      <hr />
       <Projects />
-      <hr />
       <Contact />
 
 
