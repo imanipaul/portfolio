@@ -39,9 +39,10 @@ function LandingPage() {
                 <div>Projects</div>
                 <div>Contact</div>
             </nav>
-            <section>
-                {/* <img src={whitekeyboardearbuds} /> */}
-                <div className='web-developer'>Web Developer</div>
+            <section className='slidingVertical'>
+                <span className='web-developer'>Web Developer</span>
+                <span className='web-developer'>Software Engineer</span>
+                <span className='web-developer'>Product Manager</span>
             </section>
         </div>
     )
