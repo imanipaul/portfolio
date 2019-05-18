@@ -13,6 +13,7 @@ import rails from './images/rails.png'
 import react from './images/react.png'
 import slack from './images/slack.svg'
 import zeplin from './images/zeplin.png'
+import adobe from './images/adobexd.png'
 
 function Contact(props) {
     return (
@@ -50,6 +51,7 @@ function Contact(props) {
                 <img alt='react' className='about-logo' src={react} />
                 <img alt='slack' className='about-logo' src={slack} />
                 <img alt='zeplin' className='about-logo' src={zeplin} />
+                <img alt='adobexd' className='about-logo' src={adobe} />
 
             </div>
         </div>

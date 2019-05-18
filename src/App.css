@@ -420,6 +420,37 @@ margin: 25px;
 }
 
 /* Media Queries */
+@media screen and (min-width: 1300px) and (max-width: 1360px){
+  .slidingVertical span{
+    right: 420px;
+  }
+}
+@media screen and (min-width: 1361px) and (max-width: 1399px){
+  .slidingVertical span{
+    right: 450px;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1499px){
+  .slidingVertical span{
+    right: 460px;
+  }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1599px){
+  .slidingVertical span{
+    right: 520px;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1650px){
+  .slidingVertical span{
+    right: 570px;
+  }
+}
+
+
+
+/* Phone Media Query */
 
 @media only screen and (max-width:  375px){
   body{
