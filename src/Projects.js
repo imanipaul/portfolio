@@ -25,8 +25,8 @@ function Projects(props) {
                         <div className='text-description'>
                             <h3>ReCollect</h3>
                             <p>Full stack inventory app for household essentials</p>
-                            <a target='_blank' href='http://recollect.surge.sh'>Visit</a>
-                            <a target='_blank' href='https://github.com/imanipaul/ReCollect'>Code</a>
+                            <a target='_blank' rel="noopener noreferrer" href='http://recollect.surge.sh'>Visit</a>
+                            <a target='_blank' rel="noopener noreferrer" href='https://github.com/imanipaul/ReCollect'>Code</a>
                         </div>
                     </div>
                 </div>
@@ -37,8 +37,8 @@ function Projects(props) {
                         <div className='text-description'>
                             <h3>Speed Type</h3>
                             <p>Typing game using vanilla Javascript and CSS animations</p>
-                            <a target='_blank' href='https://imanipaul.github.io/speed-type/'>Visit</a>
-                            <a target='_blank' href='https://github.com/imanipaul/speed-type'>Code</a>
+                            <a target='_blank' rel="noopener noreferrer" href='https://imanipaul.github.io/speed-type/'>Visit</a>
+                            <a target='_blank' rel="noopener noreferrer" href='https://github.com/imanipaul/speed-type'>Code</a>
                         </div>
                     </div>
                 </div>
@@ -52,8 +52,8 @@ function Projects(props) {
                         <div className='text-description'>
                             <h3>Ensemble</h3>
                             <p>A full stack site for connecting with fellow students and instructors</p>
-                            <a target='_blank' href='http://ensemble-ga.surge.sh/'>Visit</a>
-                            <a target='_blank' href='https://github.com/imanipaul/Ensemble'>Code</a>
+                            <a target='_blank' rel="noopener noreferrer" href='http://ensemble-ga.surge.sh/'>Visit</a>
+                            <a target='_blank' rel="noopener noreferrer" href='https://github.com/imanipaul/Ensemble'>Code</a>
                         </div>
                     </div>
                 </div>
@@ -66,8 +66,8 @@ function Projects(props) {
                             <h3>Chumley's</h3>
                             <p>Restaurant site redesign for local NYC eatery.
                             Created through collaboration with UX designers</p>
-                            <a target='_blank' href='http://chumleys-app.surge.sh/'>Visit</a>
-                            <a target='_blank' href='https://github.com/imanipaul/Chumleys'>Code</a>
+                            <a target='_blank' rel="noopener noreferrer" href='http://chumleys-app.surge.sh/'>Visit</a>
+                            <a target='_blank' rel="noopener noreferrer" href='https://github.com/imanipaul/Chumleys'>Code</a>
                         </div>
                     </div>
                 </div>
@@ -78,8 +78,8 @@ function Projects(props) {
                         <div className='text-description'>
                             <h3>All Things Music</h3>
                             <p>Popular music search engine using React and LastFM API</p>
-                            <a target='_blank' href='https://all-things-music.herokuapp.com/'>Visit</a>
-                            <a target='_blank' href='https://github.com/imanipaul/all-things-music'>Code</a>
+                            <a target='_blank' rel="noopener noreferrer" href='https://all-things-music.herokuapp.com/'>Visit</a>
+                            <a target='_blank' rel="noopener noreferrer" href='https://github.com/imanipaul/all-things-music'>Code</a>
                         </div>
                     </div>
                 </div>

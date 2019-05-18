@@ -28,32 +28,30 @@ function Contact(props) {
             <div className='contact'>
                 <h3 className='title'>Contact me!</h3>
                 <a href='mailto:imani.paul1@gmail.com'>Email</a>
-                <a href='http://www.linkedin.com/in/imani-paul' target='_blank'>LinkedIn</a>
-                <a href='https://github.com/imanipaul' target='_blank'>Github</a>
+                <a href='http://www.linkedin.com/in/imani-paul' rel="noopener noreferrer" target='_blank'>LinkedIn</a>
+                <a href='https://github.com/imanipaul' rel="noopener noreferrer" target='_blank'>Github</a>
             </div>
             <div className='line'>
 
             </div>
-            {/* <h2 className='title'>Skills</h2> */}
-            {/* <div> */}
+
             <div className='framework-logos'>
-                <img className='about-logo' src={express} />
-                <img className='about-logo' src={github} />
-                <img className='about-logo' src={gitIcon} />
-                <img className='about-logo' src={heroku} />
-                <img className='about-logo' src={htmlcss} />
-                <img className='about-logo' src={javascript} />
-                <img className='about-logo' src={node} />
-                <img className='about-logo' src={npm} />
-                <img className='about-logo' src={postgresql} />
-                <img className='about-logo' src={python} />
-                <img className='about-logo' src={rails} />
-                <img className='about-logo' src={react} />
-                <img className='about-logo' src={slack} />
-                <img className='about-logo' src={zeplin} />
+                <img alt='express' className='about-logo' src={express} />
+                <img alt='github' className='about-logo' src={github} />
+                <img alt='git' className='about-logo' src={gitIcon} />
+                <img alt='heroku' className='about-logo' src={heroku} />
+                <img alt='html and css' className='about-logo' src={htmlcss} />
+                <img alt='javascript' className='about-logo' src={javascript} />
+                <img alt='node' className='about-logo' src={node} />
+                <img alt='npm' className='about-logo' src={npm} />
+                <img alt='postgresql' className='about-logo' src={postgresql} />
+                <img alt='python' className='about-logo' src={python} />
+                <img alt='rails' className='about-logo' src={rails} />
+                <img alt='react' className='about-logo' src={react} />
+                <img alt='slack' className='about-logo' src={slack} />
+                <img alt='zeplin' className='about-logo' src={zeplin} />
 
             </div>
-            {/* </div> */}
         </div>
     )
 }
