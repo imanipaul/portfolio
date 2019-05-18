@@ -22,8 +22,7 @@ function About(props) {
                     </div>
                     <div className='brand-statement-container'>
                         <p>
-                            I am a Software Engineer and results-driven business consultant who strives to bridge the gap between the complexities of a corporation’s needs and the technology teams that foster their innovation. Collaborative, driven and eager to learn, I believe that my unique training in both business and software development gives me a holistic perspective that would allow me to transform early-stage all ideas into valuable products ready for market.
-            </p>
+                            I am a Software Engineer and results-driven business consultant who strives to bridge the gap between the complexities of a corporation’s needs and the technology teams that foster their innovation. After graduating with my MBA, my passion for creative problem solving drove my interest to pursue a career in Web Development. Collaborative, driven and eager to learn, I believe that my unique training in both business and software development gives me a holistic perspective that would allow me to transform early-stage ideas into valuable products ready for market.            </p>
                     </div>
                 </div>
             </div>
