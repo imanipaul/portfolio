@@ -88,6 +88,12 @@ a:active{
   background-size: cover;
 }
 
+.landing-page-container:hover{
+  box-shadow: 5px 10px 5px black;
+  border: 1px solid black;
+
+}
+
 nav{
   display: flex;
   flex-direction: row;
@@ -164,6 +170,12 @@ section{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.about-container:hover{
+  box-shadow: 5px 10px 5px black;
+  border: 1px solid black;
+
 }
 
 .about-content{
@@ -263,6 +275,12 @@ section{
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+.projects-container:hover{
+  box-shadow: 5px 10px 5px black;
+  border: 1px solid black;
+
 }
 
 .projects-container .title{
@@ -370,6 +388,12 @@ section{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.contact-container:hover{
+  box-shadow: 5px 10px 5px black;
+  border: 1px solid black;
+
 }
 
 .contact a{
