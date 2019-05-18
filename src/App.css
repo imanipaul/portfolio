@@ -431,9 +431,14 @@ margin: 25px;
   }
 }
 
-@media screen and (min-width: 1400px) and (max-width: 1499px){
+@media screen and (min-width: 1400px) and (max-width: 1439px){
   .slidingVertical span{
     right: 460px;
+  }
+}
+@media screen and (min-width: 1440px) and (max-width: 1499px){
+  .slidingVertical span{
+    right: 485px;
   }
 }
 
