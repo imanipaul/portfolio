@@ -172,7 +172,10 @@ section{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  /* margin-top: 100px; */
+}
+
+.about-content .title{
+  margin-bottom: 50px;
 }
 
 .framework-logos{
@@ -220,8 +223,7 @@ section{
 }
 
 .brand-statement-container{
-  width: 439px;
-  height: 479;
+  width: 500px;
   border-radius: 30px;
 }
 
@@ -229,6 +231,8 @@ section{
   font-size: 20px;
   line-height: 1.5;
   text-align: center;
+  line-height: 2
+
 }
 
 .headshot{
@@ -259,6 +263,10 @@ section{
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+.projects-container .title{
+  margin-bottom: 50px;
 }
 
 .project-card{
