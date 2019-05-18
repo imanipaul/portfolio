@@ -1,9 +1,9 @@
 import React from 'react'
-import speedtype from './images/speedtype.png'
-import recollect from './images/recollect.png'
-import chumleys from './images/chumleys.png'
-import ensemble from './images/ensemble.png'
-import allthingsmusic from './images/allthingsmusic.png'
+import speedtype from './images/speedtype-best.png'
+import recollect from './images/recollect-best.png'
+import chumleys from './images/chumleys-best.png'
+import ensemble from './images/ensemble-best.png'
+import allthingsmusic from './images/allthingsmusic-best.png'
 
 function Projects(props) {
     return (
