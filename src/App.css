@@ -123,9 +123,7 @@ section{
 
 .slidingVertical{
   display: block;
-  text-indent: 8px;
   font-size: 40px;
-
 }
 
 .slidingVertical span{
@@ -133,8 +131,8 @@ section{
   position: absolute;
   opacity: 0;
   margin-top: 140px;
-  width: 500px;
-  right: 400px;
+  width: 100vw;
+  right: 0.5em;
 }
 
 .slidingVertical span:nth-child(2){
@@ -420,6 +418,8 @@ margin: 25px;
 }
 
 /* Media Queries */
+
+/* 
 @media screen and (min-width: 1300px) and (max-width: 1360px){
   .slidingVertical span{
     right: 420px;
@@ -452,7 +452,7 @@ margin: 25px;
     right: 570px;
   }
 }
-
+ */
 
 
 /* Phone Media Query */
