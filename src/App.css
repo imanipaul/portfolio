@@ -570,7 +570,16 @@ margin: 25px;
   }
 
   .about-container{
-    height: 900px;
+    height: 700px;
+  }
+
+  .projects-container .about-nav{
+    height: 100px;
+    margin-top: 0px;
+  }
+
+  #projects-nav{
+    margin-top: 0px;
   }
 
   .slidingVertical span{
@@ -611,7 +620,6 @@ margin: 25px;
 
   .about-content{
     width: 350px;
-    height: 500px;
   }
 
   .about-content .title{
@@ -723,7 +731,7 @@ display: none;
 
 }
 
-@media screen and (max-width: 425px){
+@media screen and (min-width: 376px) and (max-width: 425px){
   body{
     background-color: #7EA3CC;
     margin: 0px;
