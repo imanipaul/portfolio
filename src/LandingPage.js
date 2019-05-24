@@ -12,9 +12,9 @@ function LandingPage() {
                 </div>
             </header>
             <nav>
-                <div><a href='/#about'>About</a></div>
-                <div><a href='/#projects'>Projects</a></div>
-                <div><a href='/#contact'>Contact</a></div>
+                <a href='#about'>About</a>
+                <a href='#projects'>Projects</a>
+                <a href='#contact'>Contact</a>
             </nav>
             <section className='slidingVertical'>
                 <span className='web-developer'>Web Developer</span>

@@ -108,7 +108,12 @@ nav div{
   font-size: 18px;
   padding-top: 10px;
   width: 100px;
-  /* height: 50px; */
+}
+
+nav a{
+  font-size: 18px;
+  padding-top: 10px;
+  width: 100px;
 }
 
 nav div:hover{
