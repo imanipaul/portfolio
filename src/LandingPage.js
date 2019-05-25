@@ -13,10 +13,7 @@ function LandingPage(props) {
                 </div>
             </header>
             <nav>
-                {/* <a href='#about'>About</a> */}
-                {/* <div onClick={() => (props.history.push('#about'))}>About</div> */}
-                {/* <a href='#projects'>Projects</a> */}
-                {/* <a href='#contact'>Contact</a> */}
+
 
                 <Link smooth to='/#about'>About</Link>
                 <Link smooth to='/#projects'>Projects</Link>
