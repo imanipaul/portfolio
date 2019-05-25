@@ -1,7 +1,8 @@
 import React from 'react'
+import { HashLink as Link } from 'react-router-hash-link'
 
 
-function LandingPage() {
+function LandingPage(props) {
     return (
         <div className='landing-page-container'>
             <header>
@@ -12,9 +13,14 @@ function LandingPage() {
                 </div>
             </header>
             <nav>
-                <a href='#about'>About</a>
-                <a href='#projects'>Projects</a>
-                <a href='#contact'>Contact</a>
+                {/* <a href='#about'>About</a> */}
+                {/* <div onClick={() => (props.history.push('#about'))}>About</div> */}
+                {/* <a href='#projects'>Projects</a> */}
+                {/* <a href='#contact'>Contact</a> */}
+
+                <Link smooth to='/#about'>About</Link>
+                <Link smooth to='/#projects'>Projects</Link>
+                <Link smooth to='/#contact'>Contact</Link>
             </nav>
             <section className='slidingVertical'>
                 <span className='web-developer'>Web Developer</span>
