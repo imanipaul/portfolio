@@ -28,9 +28,17 @@ function Contact(props) {
             </div>
             <div className='contact'>
                 <h3 className='title'>Contact me!</h3>
-                <a href='mailto:imani.paul1@gmail.com'>Email</a>
-                <a href='http://www.linkedin.com/in/imani-paul' rel="noopener noreferrer" target='_blank'>LinkedIn</a>
-                <a href='https://github.com/imanipaul' rel="noopener noreferrer" target='_blank'>Github</a>
+                <form name='contact' method='POST' data-netlify='true' action='/contact'>
+                    <div className='form-titles'>
+                        <input type='text' name='name' placeholder='Name' />
+                        <input type='email' name='email' placeholder='Email' />
+                    </div>
+                    <textarea name='message' placeholder='Message'></textarea>
+                    <button type='submit'>Send</button>
+                </form>
+                {/* <a href='mailto:imani.paul1@gmail.com'>Email</a> */}
+                {/* <a href='http://www.linkedin.com/in/imani-paul' rel="noopener noreferrer" target='_blank'>LinkedIn</a> */}
+                {/* <a href='https://github.com/imanipaul' rel="noopener noreferrer" target='_blank'>Github</a> */}
             </div>
             <div className='line'>
 
