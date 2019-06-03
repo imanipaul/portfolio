@@ -88,11 +88,11 @@ a:active{
   background-size: cover;
 }
 
-.landing-page-container:hover{
+/* .landing-page-container:hover{
   box-shadow: 5px 10px 5px black;
   border: 1px solid black;
 
-}
+} */
 
 nav{
   display: flex;
@@ -175,11 +175,11 @@ section{
   align-items: center;
 }
 
-.about-container:hover{
+/* .about-container:hover{
   box-shadow: 5px 10px 5px black;
   border: 1px solid black;
 
-}
+} */
 
 .about-content{
   width: 100%;
@@ -279,11 +279,11 @@ section{
   justify-content: space-around;
 }
 
-.projects-container:hover{
+/* .projects-container:hover{
   box-shadow: 5px 10px 5px black;
   border: 1px solid black;
 
-}
+} */
 
 .projects-container .title{
   margin-bottom: 50px;
@@ -392,11 +392,11 @@ section{
   align-items: center;
 }
 
-.contact-container:hover{
+/* .contact-container:hover{
   box-shadow: 5px 10px 5px black;
   border: 1px solid black;
 
-}
+} */
 
 .contact a{
   text-decoration: underline;
@@ -424,6 +424,7 @@ margin: 25px;
 
 /* Media Queries */
 
+
 /* Tablet Media Queries */
 
 @media only screen and (max-width: 768px){
@@ -438,6 +439,8 @@ margin: 25px;
     margin: 0;
     margin-top: 30px;
   }
+
+
 
   .slidingVertical{
     font-size: 30px;
@@ -524,6 +527,8 @@ margin: 25px;
   .projects-container .about-nav{
     height: 20px;
   }
+
+  
 
   
 }
