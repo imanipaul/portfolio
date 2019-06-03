@@ -88,11 +88,6 @@ a:active{
   background-size: cover;
 }
 
-/* .landing-page-container:hover{
-  box-shadow: 5px 10px 5px black;
-  border: 1px solid black;
-
-} */
 
 nav{
   display: flex;
@@ -158,8 +153,6 @@ section{
 }
 
 
-
-
 .about-container{
   box-shadow: 5px 10px 5px rgb(91, 91, 91);
   scroll-snap-align: center;
@@ -174,12 +167,6 @@ section{
   flex-direction: column;
   align-items: center;
 }
-
-/* .about-container:hover{
-  box-shadow: 5px 10px 5px black;
-  border: 1px solid black;
-
-} */
 
 .about-content{
   width: 100%;
@@ -255,14 +242,6 @@ section{
 }
 
 
-
-
-
-
-
-
-
-
 .projects-container{
   scroll-snap-align: center;
   box-shadow: 5px 10px 5px rgb(91, 91, 91);
@@ -279,11 +258,6 @@ section{
   justify-content: space-around;
 }
 
-/* .projects-container:hover{
-  box-shadow: 5px 10px 5px black;
-  border: 1px solid black;
-
-} */
 
 .projects-container .title{
   margin-bottom: 50px;
@@ -292,7 +266,6 @@ section{
 .project-card{
   border: 1px solid black;
   border-radius: 20px;
-  /* margin: 15px; */
   background-color: white;
   position: relative;
   box-shadow: 2px 5px 2px rgb(91, 91, 91);
@@ -365,18 +338,6 @@ section{
   overflow: scroll;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .contact-container{
   scroll-snap-align: center;
   box-shadow: 5px 10px 5px rgb(91, 91, 91);
@@ -392,11 +353,7 @@ section{
   align-items: center;
 }
 
-/* .contact-container:hover{
-  box-shadow: 5px 10px 5px black;
-  border: 1px solid black;
 
-} */
 
 .contact a{
   text-decoration: underline;
