@@ -29,16 +29,15 @@ function Contact(props) {
             <div className='contact'>
                 <h3 className='title'>Contact me!</h3>
                 <form name='contact' method='POST' data-netlify='true' action='/contact'>
-                    <div className='form-titles'>
-                        <input type='text' name='name' placeholder='Name' />
-                        <input type='email' name='email' placeholder='Email' />
+                    <div className='form-elements'>
+                        <div className='form-titles'>
+                            <input type='text' name='name' placeholder='Your Name' />
+                            <input type='email' name='email' placeholder='Your Email' />
+                        </div>
+                        <textarea rows='6' cols='50' name='message' placeholder='Your Message'></textarea>
                     </div>
-                    <textarea name='message' placeholder='Message'></textarea>
                     <button type='submit'>Send</button>
                 </form>
-                {/* <a href='mailto:imani.paul1@gmail.com'>Email</a> */}
-                {/* <a href='http://www.linkedin.com/in/imani-paul' rel="noopener noreferrer" target='_blank'>LinkedIn</a> */}
-                {/* <a href='https://github.com/imanipaul' rel="noopener noreferrer" target='_blank'>Github</a> */}
             </div>
             <div className='line'>
 
