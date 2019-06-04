@@ -28,20 +28,20 @@ function Contact(props) {
             </div>
             <div className='contact'>
                 <h3 className='title'>Contact me!</h3>
-                <form name='contact' method='POST' data-netlify='true' action='/contact'>
+                <form name='contact' method='POST' data-netlify='true'>
                     <div className='form-elements'>
                         <div className='form-titles'>
                             <input type='text' name='name' placeholder='Your Name' />
                             <input type='email' name='email' placeholder='Your Email' />
                         </div>
-                        <textarea rows='6' cols='50' name='message' placeholder='Your Message'></textarea>
+                        <textarea col='50' row='3' type='text' name='message' placeholder='Your Message' ></textarea>
                     </div>
                     <button type='submit'>Send</button>
                 </form>
             </div>
-            <div className='line'>
+            {/* <div className='line'> */}
 
-            </div>
+            {/* </div> */}
 
             <div className='framework-logos'>
                 <img alt='express' className='about-logo' src={express} />
