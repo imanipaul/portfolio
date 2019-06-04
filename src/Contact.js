@@ -28,7 +28,7 @@ function Contact(props) {
             </div>
             <div className='contact'>
                 <h3 className='title'>Contact me!</h3>
-                <form name='contact' netlify>
+                <form name='contact' netlify onSubmit={(e) => (e.preventDefault())}>
                     <input type="hidden" name="form-name" value="contact" />
                     <div className='form-elements'>
                         <div className='form-titles'>
