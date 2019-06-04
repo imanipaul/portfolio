@@ -366,84 +366,10 @@ section{
 }
 
 .contact {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+  margin-bottom: 20px;
 }
 
-.contact form{
-  padding-bottom: 10px;
-  align-self: center;
-  height: 10em;
-  width: 70vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgba(208, 230, 255, 0.516);
-  border-radius: 5px;
-  border-style: inset;
 
-}
-
-.contact form button{
-  border: none;
-  background-color: transparent;
-  height: 3em;
-  width: 15em;
-  border: 1px solid black;
-  outline: none;
-}
-
-.contact form button:focus{
-  background-color: #7DA3CC
-}
-
-.form-titles{
-  width: 40em;
-  height: 2em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-}
-
-.form-titles input{
-  border: none;
-  background-color: transparent;
-  border-bottom: 1px solid black;
-  text-align: left;
-  font-size: 20px;
-  width: 15em;
-  
-}
-
-.form-titles input:focus{
-  outline: none;
-}
-
-.form-elements{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  height: 20em
-}
-
-.form-elements textarea{
-  text-align: left;
-  background-color: transparent;
-  font-size: 14px;
-  border: none;
-  border-bottom: 1px solid black;
-  width: 40em;
-  outline: none;
-}
-
-.form-elements textarea:focus{
-  outline: none;
-}
 
 
 .about-logo{
