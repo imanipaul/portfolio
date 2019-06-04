@@ -28,7 +28,7 @@ function Contact(props) {
             </div>
             <div className='contact'>
                 <h3 className='title'>Contact me!</h3>
-                <form name='contact' method='POST' data-netlify='true'>
+                <form name='contact' netlify>
                     <div className='form-elements'>
                         <div className='form-titles'>
                             <input type='text' name='name' placeholder='Your Name' />
