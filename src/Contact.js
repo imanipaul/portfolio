@@ -1,24 +1,30 @@
-import React from 'react'
-import express from './images/express.png'
-import github from './images/github.png'
-import gitIcon from './images/gitIcon.png'
-import heroku from './images/heroku.png'
-import htmlcss from './images/htmlcss.png'
-import javascript from './images/javascript.png'
-import node from './images/node.png'
-import npm from './images/npm.png'
-import postgresql from './images/postgresql.png'
-import python from './images/python.png'
-import rails from './images/rails.png'
-import react from './images/react.png'
-import slack from './images/slack.svg'
-import zeplin from './images/zeplin.png'
+import React from "react";
+import express from "./images/express.png";
+import github from "./images/github.png";
+import gitIcon from "./images/gitIcon.png";
+import heroku from "./images/heroku.png";
+import htmlcss from "./images/htmlcss.png";
+import javascript from "./images/javascript.png";
+import node from "./images/node.png";
+import npm from "./images/npm.png";
+import postgresql from "./images/postgresql.png";
+import python from "./images/python.png";
+import rails from "./images/rails.png";
+import react from "./images/react.png";
+import slack from "./images/slack.svg";
+import zeplin from "./images/zeplin.png";
 // import adobe from './images/adobexd.png'
 
-function Contact(props) {
-    return (
-        <div className='contact-container' id='contact'>
-            <div className='about-nav'>
+function Contact() {
+  return (
+    <div className="contact-container" id="contact">
+      <header>Get In Touch</header>
+      <div className="contact-info">
+        Whether its about freelance opportunities, potential projects, or just
+        to say hi, I would love to hear from you!
+      </div>
+
+      {/* <div className='about-nav'>
                 <h2><a href='#'>Imani Paul</a></h2>
                 <div>
                     <p><a className='card-nav' href='#about'>About</a></p>
@@ -54,9 +60,9 @@ function Contact(props) {
                 <img alt='zeplin' className='about-logo' src={zeplin} />
                 {/* <img alt='adobexd' className='about-logo' src={adobe} /> */}
 
-            </div>
-        </div>
-    )
+      {/* </div> */}
+    </div>
+  );
 }
 
-export default Contact
+export default Contact;
