@@ -7,8 +7,8 @@ export default function Nav() {
       <img src={logo} />
       <nav>
         <a href="#About">About</a>
-        <a href="#">Work</a>
-        <a href="#">Contact</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contact">Contact</a>
         <a href="#">Resume</a>
       </nav>
     </div>

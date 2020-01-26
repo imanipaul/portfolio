@@ -17,8 +17,10 @@ import zeplin from "./images/zeplin.png";
 
 function Contact() {
   return (
-    <div className="contact-container" id="contact">
-      <header>Get In Touch</header>
+    <div className="contact-container" id="Contact">
+      <header>
+        <span>Get In Touch</span>
+      </header>
       <div className="contact-info">
         Whether its about freelance opportunities, potential projects, or just
         to say hi, I would love to hear from you!

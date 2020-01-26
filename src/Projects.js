@@ -14,8 +14,10 @@ import allthingsmusicTwo from "./images/allthingsmusic-two.png";
 
 function Projects() {
   return (
-    <section className="projects-container">
-      <header>Projects</header>
+    <section className="projects-container" id="Projects">
+      <header>
+        <span>Projects</span>
+      </header>
 
       <div className="project">
         Recollect

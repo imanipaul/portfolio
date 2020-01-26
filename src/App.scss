@@ -103,7 +103,28 @@ html {
   height: 100vh;
 
   header {
-    font-size: 20pt;
+    font-size: 28pt;
+    position: relative;
+    z-index: 1;
+    width: 60vw;
+    text-align: center;
+
+    &:before {
+      border-top: 1px solid white;
+      content: "";
+      margin: 0 auto; /* this centers the line to the full width specified */
+      position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+      top: 50%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 95%;
+      z-index: -1;
+    }
+    span {
+      background: #2f2f2f;
+      padding: 0 15px;
+    }
   }
 
   .about-content {
@@ -130,8 +151,30 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 200px;
   header {
-    font-size: 20pt;
+    font-size: 28pt;
+    position: relative;
+    z-index: 1;
+    width: 60vw;
+    text-align: center;
+
+    &:before {
+      border-top: 1px solid white;
+      content: "";
+      margin: 0 auto; /* this centers the line to the full width specified */
+      position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+      top: 50%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 95%;
+      z-index: -1;
+    }
+    span {
+      background: #2f2f2f;
+      padding: 0 15px;
+    }
   }
   .project {
     display: flex;
@@ -179,6 +222,27 @@ html {
   justify-content: space-evenly;
 
   header {
-    font-size: 20pt;
+    font-size: 28pt;
+    position: relative;
+    z-index: 1;
+    width: 60vw;
+    text-align: center;
+
+    &:before {
+      border-top: 1px solid white;
+      content: "";
+      margin: 0 auto; /* this centers the line to the full width specified */
+      position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+      top: 50%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 95%;
+      z-index: -1;
+    }
+    span {
+      background: #2f2f2f;
+      padding: 0 15px;
+    }
   }
 }

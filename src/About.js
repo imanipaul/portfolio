@@ -4,7 +4,9 @@ import headshot from "./images/headshot.png";
 function About(props) {
   return (
     <section className="about-container" id="About">
-      <header>About</header>
+      <header>
+        <span>About</span>
+      </header>
       <div className="about-content">
         <img src={headshot} />
         <div className="about-text">
