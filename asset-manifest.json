@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.480b7af1.chunk.css",
+    "main.js": "/portfolio/static/js/main.9ee6cfb7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9ee6cfb7.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
+    "static/js/2.f8344b52.chunk.js": "/portfolio/static/js/2.f8344b52.chunk.js",
+    "static/js/2.f8344b52.chunk.js.map": "/portfolio/static/js/2.f8344b52.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.480b7af1.chunk.css.map": "/portfolio/static/css/main.480b7af1.chunk.css.map",
+    "static/js/2.f8344b52.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f8344b52.chunk.js.LICENSE.txt",
+    "static/media/adobexd.a8e5586d.png": "/portfolio/static/media/adobexd.a8e5586d.png",
+    "static/media/allthingsmusic-best.d098dc0b.png": "/portfolio/static/media/allthingsmusic-best.d098dc0b.png",
+    "static/media/chumleys-best.94de735a.png": "/portfolio/static/media/chumleys-best.94de735a.png",
+    "static/media/App.css": "/portfolio/static/media/whitecomputer-best.d00fa94e.jpg",
+    "static/media/ensemble-best.6244fbff.png": "/portfolio/static/media/ensemble-best.6244fbff.png",
+    "static/media/headshot.94289263.png": "/portfolio/static/media/headshot.94289263.png",
+    "static/media/htmlcss.d8530341.png": "/portfolio/static/media/htmlcss.d8530341.png",
+    "static/media/javascript.b22ac06a.png": "/portfolio/static/media/javascript.b22ac06a.png",
+    "static/media/node.f4f81271.png": "/portfolio/static/media/node.f4f81271.png",
+    "static/media/postgresql.048cd427.png": "/portfolio/static/media/postgresql.048cd427.png",
+    "static/media/python.2e65c2b7.png": "/portfolio/static/media/python.2e65c2b7.png",
+    "static/media/rails.dc729bf3.png": "/portfolio/static/media/rails.dc729bf3.png",
+    "static/media/react.c2861c4d.png": "/portfolio/static/media/react.c2861c4d.png",
+    "static/media/recollect-best.80cf4244.png": "/portfolio/static/media/recollect-best.80cf4244.png",
+    "static/media/slack.3e75fceb.svg": "/portfolio/static/media/slack.3e75fceb.svg",
+    "static/media/speedtype-best.3ee32055.png": "/portfolio/static/media/speedtype-best.3ee32055.png",
+    "static/media/zeplin.8beac02b.png": "/portfolio/static/media/zeplin.8beac02b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fed2963.js",
+    "static/js/2.f8344b52.chunk.js",
+    "static/css/main.480b7af1.chunk.css",
+    "static/js/main.9ee6cfb7.chunk.js"
+  ]
+}
